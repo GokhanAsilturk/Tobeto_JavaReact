@@ -4,10 +4,9 @@ public class Order {
     public Order() {
     }
 
-    public Order(int id, Product product, String userName, String adress) {
-        this.id = id;
+    public Order(Product product, User user, String adress) {
         this.product = product;
-        this.userName = userName;
+        this.userName = user.getName();
         this.adress = adress;
     }
 

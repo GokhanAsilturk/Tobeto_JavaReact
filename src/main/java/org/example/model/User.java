@@ -5,8 +5,7 @@ public class User {
     public User() {
     }
 
-    public User(int id, String name, String emailAddress) {
-        this.id = id;
+    public User( String name, String emailAddress) {
         this.name = name;
         this.emailAddress = emailAddress;
     }

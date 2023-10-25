@@ -9,22 +9,14 @@ public class Main {
     public static void main(String[] args) {
 
 
-        User userGokhan = new User();
-        userGokhan.setName("Gökhan");
-        userGokhan.setEmailAddress("gokhanasilturkk@gmail.com");
+        User userGokhan = new User("Gökhan", "gokhanasilturkk@gmail.com");
 
-        Category categoryLaptop = new Category();
-        categoryLaptop.setCategoryName("Laptop");
 
-        Product product = new Product();
-        product.setName("Lenovo");
-        product.setUnitPrice(1500);
-        product.setCategory(categoryLaptop);
+        Category categoryLaptop = new Category("Laptop");
 
-        Order order = new Order();
-        order.setAdress("Istanbul");
-        order.setProduct(product);
-        order.setUserName(userGokhan.getName());
+        Product product = new Product("Lenovo", 1500, categoryLaptop);
+
+        Order order = new Order(product, userGokhan, "Istanbul");
 
 
         System.out.println("Kullanıcı bilgileri: \n" + userGokhan + "\n--------------");
