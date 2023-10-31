@@ -13,13 +13,13 @@ public class CarManager implements ICarManager {
 
     @Override
     public void add(Car car) {
-        System.out.println(carDao.add(car.getId()) + car.toString());
+        System.out.println(carDao.add(car.getId()) + car);
 
     }
 
     @Override
     public void get(Car car) {
-        System.out.println(carDao.get(car.getBrand()) + car.toString());
+        System.out.println(carDao.get(car.getBrand()) + car);
     }
 
     @Override

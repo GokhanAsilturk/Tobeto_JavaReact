@@ -1,6 +1,6 @@
 package Workshop_Day3.dataAccess;
 
-public class JdbcCarDao implements CarDao{
+public class JdbcCarDao implements CarDao {
     @Override
     public String add(int id) {
         return "JDBC ile eklendi: \n";
