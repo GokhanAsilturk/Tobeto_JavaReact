@@ -1,9 +1,9 @@
-package org.example;
+package Workshop_Day2;
 
-import org.example.model.Category;
-import org.example.model.Order;
-import org.example.model.Product;
-import org.example.model.User;
+import Workshop_Day2.model.Category;
+import Workshop_Day2.model.Order;
+import Workshop_Day2.model.Product;
+import Workshop_Day2.model.User;
 
 public class Main {
     public static void main(String[] args) {

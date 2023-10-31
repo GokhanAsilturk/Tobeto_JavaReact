@@ -1,4 +1,4 @@
-package org.example.model;
+package Workshop_Day2.model;
 
 public class Product {
 
